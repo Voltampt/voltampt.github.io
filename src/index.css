@@ -24,8 +24,7 @@ a:hover {
 }
 
 body {
-  margin: 0;
-  display: flex;
+  display: grid;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
@@ -33,7 +32,13 @@ body {
 
 h1 {
   font-size: 3.2em;
-  line-height: 1.1;
+  line-height: 0.0;
+  text-align: center;
+}
+
+h6 {
+  text-align: center;
+  line-height: 0;
 }
 
 button {
@@ -66,4 +71,20 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+img {
+  height: 40em;
+  max-height: 90%;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#figure-subheading {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
 }
