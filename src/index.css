@@ -36,6 +36,11 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  text-align: center;
+  line-height: 0.0;
+}
+
 h6 {
   text-align: center;
   line-height: 0;
@@ -74,7 +79,6 @@ button:focus-visible {
 }
 
 img {
-  height: 40em;
   max-height: 90%;
   max-width: 90%;
   margin-left: auto;
@@ -82,9 +86,32 @@ img {
   display: block;
 }
 
+#profile-img{
+  max-height: 40%;
+  max-width: 40%;
+}
+
 #figure-subheading {
   margin-left: auto;
   margin-right: auto;
   display: block;
   text-align: center;
+}
+
+#contact-text{
+  text-align: center;
+}
+
+#contact-icons{
+  display:flex;
+}
+
+#twitter-icon{
+  max-height: 50%;
+  max-width: 50%;
+}
+
+#youtube-icon{
+  max-height: 50%;
+  max-width: 50%;
 }
