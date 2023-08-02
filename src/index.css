@@ -121,7 +121,7 @@ img {
   max-width: 50%;
 }
 
-#kanna-thumbnail{
-  max-height: 39%;
-  max-width: 39%;
+#thumbnail{
+  height: 20%;
+  width: 20%;
 }
