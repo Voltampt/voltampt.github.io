@@ -39,11 +39,16 @@ h1 {
 h2 {
   text-align: center;
   line-height: 0.0;
+  text-align: center;
 }
 
 h6 {
   text-align: center;
   line-height: 0;
+}
+
+p{
+  text-align: center;
 }
 
 button {
@@ -114,4 +119,9 @@ img {
 #youtube-icon{
   max-height: 50%;
   max-width: 50%;
+}
+
+#kanna-thumbnail{
+  max-height: 39%;
+  max-width: 39%;
 }
